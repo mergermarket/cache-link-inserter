@@ -1,0 +1,23 @@
+{
+  "name": "cache-link-inserter",
+  "version": "1.0.0",
+  "description": "Inserts cache links",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node_modules/.bin/nodemon -x \"npm run test & npm run start\"",
+    "test": "ava"
+  },
+  "author": "Dan Ryan and Dave Wickes",
+  "license": "MIT",
+  "devDependencies": {
+    "ava": "^0.19.1",
+    "nodemon": "^1.11.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "cheerio": "^0.22.0",
+    "express": "^4.15.3",
+    "node-fetch": "^1.7.0"
+  }
+}
