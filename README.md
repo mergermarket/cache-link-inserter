@@ -8,7 +8,7 @@ the original links pointed to.
 
 Depends on a service running on `localhost:4747` that conforms to the same API
 as the Internet Archive link saving service. A good example is the
-(link-snapshot)[https://github.com/mergermarket/link-snapshot] service.
+[link-snapshot](https://github.com/mergermarket/link-snapshot) service.
 
 ## To run
 
